@@ -1,0 +1,69 @@
+body{
+    background-image:url(backiee-125865.jpg) ;
+    background-repeat: no-repeat;
+    background-size: 1500px;
+}
+
+h1{
+    text-align: center;
+    font-size: 65px;
+    text-decoration: underline;
+}
+
+table,tr,caption{
+    border: 4px solid;
+    color: black;
+    border-collapse: collapse;
+    padding: 0.5rem;
+}
+
+th,td{
+    border: 5px solid;
+    padding: 0.5rem;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 70px;
+    text-align: center;
+}
+
+.center{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.A{
+     background-color: blue;
+}
+
+.D{
+    background-color: darkred;
+}
+
+.J{
+    background-color: darkgreen;
+}
+
+.C{
+    background-color: purple;
+}
+
+a:visited{
+    color: red;
+}
+
+a{
+    color: aliceblue;
+}
+
+a:hover{
+    color: purple;
+}
+
+form{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+
+button{
+   background-color: gray;
+}

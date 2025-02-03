@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body> 
+    <article>
+        <h1> Registeration Form</h1>
+        
+        <form action="https://httpbin.org/get" method="get">
+        <p>
+            <label for="firstName">First Name</label>
+            <input type="text" name="firstName" id="firstName" placeholder="James" autocomplete="on" required autofocus>
+        </p>
+        <p>
+            <label for="surName">SurName</label>
+            <input type="text" name="surName" id="surName" placeholder="Chadwick" autocomplete="on" required>
+        </p>
+        <p> 
+            <label for="password">Password</label>
+            <input type="password" name="password" id="password" placeholder="your secret" required>
+        </p>
+        <p> 
+            <label for="phone">Phone Number</label>
+            <input type="tel" name="phone" id="phone" placeholder="0000000000" autocomplete="on" pattern="[0-9]{3}[0-9]{3}[0-9]{4}" required>
+        </p>
+        <p> 
+            <label for="email">Email</label>
+            <input type="email" name="email" id="email" placeholder="sharoncrown@gmail.com" autocomplete="on" required>
+        </p>
+        <p> 
+            <label for="dateBirth">Date Of Birth</label>
+            <input type="number" name="dateBirth" id="dateBirth" min="1950"  max="2005" autocomplete="on" required>
+        </p>
+         <button type="submit">Submit</button>
+
+        </form>
+    </article>
+</body>
+</html>
